@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="29236fbb5153495fb396c0973d869755" Name="Diagram1">
+        <EntityTypeShape EntityType="Hastane_RandevuModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hastane_RandevuModel.tblArac" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hastane_RandevuModel.tblKiralama" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hastane_RandevuModel.tblMusteri" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hastane_RandevuModel.tblPuan" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hastane_RandevuModel.tblSirket" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hastane_RandevuModel.tblTalep" Width="1.5" PointX="8.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hastane_RandevuModel.tblTeslim" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="Hastane_RandevuModel.FK_tblArac_tblSirket" ManuallyRouted="false" />
+        <AssociationConnector Association="Hastane_RandevuModel.FK_tblKiralama_tblArac" ManuallyRouted="false" />
+        <AssociationConnector Association="Hastane_RandevuModel.FK_tblTalep_tblArac" ManuallyRouted="false" />
+        <AssociationConnector Association="Hastane_RandevuModel.FK_tblTeslim_tblArac" ManuallyRouted="false" />
+        <AssociationConnector Association="Hastane_RandevuModel.FK_tblKiralama_tblMusteri" ManuallyRouted="false" />
+        <AssociationConnector Association="Hastane_RandevuModel.FK_tblKiralama_tblSirket" ManuallyRouted="false" />
+        <AssociationConnector Association="Hastane_RandevuModel.FK_tblPuan_tblMusteri" ManuallyRouted="false" />
+        <AssociationConnector Association="Hastane_RandevuModel.FK_tblTalep_tblMusteri" ManuallyRouted="false" />
+        <AssociationConnector Association="Hastane_RandevuModel.FK_tblTeslim_tblMusteri" ManuallyRouted="false" />
+        <AssociationConnector Association="Hastane_RandevuModel.FK_tblPuan_tblSirket" ManuallyRouted="false" />
+        <AssociationConnector Association="Hastane_RandevuModel.FK_tblTalep_tblSirket" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
